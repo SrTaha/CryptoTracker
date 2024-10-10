@@ -4,7 +4,7 @@ let html = ``;
 
 function ChartGenerator(ctx) {
   new Chart(ctx, {
-    type: "bar",
+    type: "line",
     data: {
       labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
       datasets: [
@@ -51,9 +51,9 @@ function LoadData() {
         ChartContainers.appendChild(objChart);
         //-----------------------------------------------
         let ChartInfo = document.createElement("p");
-        ChartInfo.innerHTML = `Current Price: ${elem.price_usd}$ <br> Price Per BTC : ${elem.price_btc} <br> Total MarketCap : ${elem.market_cap_usd}$ <br> Last Price per hour : ${elem.percent_change_1h}$
-        <br> Last Price per 24h : ${elem.percent_change_24h}$
-        <br> Last Price per week : ${elem.percent_change_7d}$
+        ChartInfo.innerHTML = `Current Price: ${elem.price_usd}$ <br> Price Per BTC : ${elem.price_btc} <br> Total MarketCap : ${elem.market_cap_usd}$ <br> Last Change per hour : ${elem.percent_change_1h}$
+        <br> Last Change per 24h : ${elem.percent_change_24h}$
+        <br> Last Change per week : ${elem.percent_change_7d}$
         <br> Trades per 24h : ${elem.volume24}`;
         ChartInfo.classList.add("font-black", "m-3");
         objChart.after(ChartInfo);
