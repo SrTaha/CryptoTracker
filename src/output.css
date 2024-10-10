@@ -580,16 +580,12 @@ video {
   display: flex;
 }
 
-.w-8\/12 {
-  width: 66.666667%;
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
 }
 
 .flex-col {

@@ -2,6 +2,12 @@ let root = document.getElementById("root");
 
 let html = ``;
 
+root.innerHTML = `<nav class="bg-gray-800 p-3 relative top-0 flex items-center">
+        <a href="https://github.com/SrTaha/CryptoTracker" target="_blank" class="font-black text-white mx-auto">Crypto
+            Tracker : Track Coins Price At Any Time </a>
+    </nav>`;
+
+//-----------------------------------------------
 function ChartGenerator(ctx) {
   new Chart(ctx, {
     type: "line",
