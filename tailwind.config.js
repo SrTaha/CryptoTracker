@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./**/*.html", "js/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        texgyreadventor: ["texgyreadventor", "sans-serif", "sans"],
+      },
+    },
   },
+
   plugins: [],
 };

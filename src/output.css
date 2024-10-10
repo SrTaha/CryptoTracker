@@ -580,16 +580,12 @@ video {
   display: flex;
 }
 
-.w-4\/12 {
-  width: 33.333333%;
+.w-8\/12 {
+  width: 66.666667%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-8\/12 {
-  width: 66.666667%;
 }
 
 .flex-col {
@@ -600,9 +596,18 @@ video {
   align-items: center;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .bg-gray-800 {
@@ -610,21 +615,16 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .p-3 {
   padding: 0.75rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.font-texgyreadventor {
+  font-family: texgyreadventor, sans-serif, sans;
 }
 
 .font-black {
@@ -638,4 +638,10 @@ video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@font-face {
+  font-family: "texgyreadventor";
+
+  src: url("../fonts/texgyreadventor-regular.otf");
 }

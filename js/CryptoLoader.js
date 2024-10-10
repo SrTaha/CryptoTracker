@@ -36,8 +36,9 @@ function LoadData() {
           "w-8/12",
           "mx-auto",
           "p-4",
-          "bg-red-500",
-          "my-5"
+          "bg-gray-600",
+          "my-5",
+          "rounded-xl"
         );
         //-----------------------------------------------
         let ChartHeader = document.createElement("p");
