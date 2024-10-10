@@ -12,6 +12,6 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 ## 📄License
 This project is licensed under the MIT License. See the <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository" >LICENSE</a> file for more details.
 ## 💎Acknowledgments
-- Thanks to all contributors and developers of the APIs used in this project for providing valuable data and resources.
+- Thanks to all contributors and developers of the <a href="https://api.coinlore.net/api/tickers/">APIs</a> used in this project for providing valuable data and resources.
 #
 Feel free to modify any sections as needed or add additional information specific to your project!
