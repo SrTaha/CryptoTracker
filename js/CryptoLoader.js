@@ -45,11 +45,9 @@ function LoadData() {
         ChartContainers.classList.add(
           "w-11/12",
           "md:w-5/12",
-          "lg:w-2/12",
-          "mx-auto",
+          "lg:w-3/12",
           "p-4",
           "bg-gray-600",
-          "my-5",
           "rounded-xl"
         );
         //-----------------------------------------------
