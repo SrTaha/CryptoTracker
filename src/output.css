@@ -588,12 +588,40 @@ video {
   width: 100%;
 }
 
+.w-3\/12 {
+  width: 25%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .rounded-xl {
@@ -646,8 +674,38 @@ video {
   src: url("../fonts/texgyreadventor-regular.otf");
 }
 
+@media (min-width: 768px) {
+  .md\:w-3\/12 {
+    width: 25%;
+  }
+
+  .md\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .lg\:w-3\/12 {
+    width: 25%;
+  }
+
+  .lg\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-2\/12 {
+    width: 16.666667%;
   }
 }
