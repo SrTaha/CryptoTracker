@@ -33,7 +33,8 @@ function LoadData() {
         //-----------------------------------------------
         let ChartContainers = document.createElement("ChartContainers");
         ChartContainers.classList.add(
-          "w-8/12",
+          "w-11/12",
+          "lg:w-8/12",
           "mx-auto",
           "p-4",
           "bg-gray-600",

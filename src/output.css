@@ -588,6 +588,10 @@ video {
   width: 100%;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -644,4 +648,10 @@ video {
   font-family: "texgyreadventor";
 
   src: url("../fonts/texgyreadventor-regular.otf");
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
 }
