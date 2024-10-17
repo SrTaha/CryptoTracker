@@ -2,11 +2,7 @@
 module.exports = {
   content: ["./**/*.html", "js/*.js"],
   theme: {
-    extend: {
-      fontFamily: {
-        texgyreadventor: ["texgyreadventor", "sans-serif", "sans"],
-      },
-    },
+    extend: {},
   },
 
   plugins: [],
